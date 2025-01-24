@@ -76,9 +76,9 @@ N/Amicronaut/jlib/micronaut-core.jar 3.8.5-2
 
 * In secured environments where access to internet is restricted from the ZDM server, you may have to allow the OCI endpoints in your network firewall. These end points are used by ZDM for API calls to the Oracle Cloud for Autonomous targets. Allow the region-specific endpoints for the following services: 
     * [Core services](https://docs.oracle.com/en-us/iaas/api/#/en/iaas/20160918/)
-    * [IAM](https://docs.oracle.com/en-us/iaas/api/#/en/identity/20160918/
+    * [IAM](https://docs.oracle.com/en-us/iaas/api/#/en/identity/20160918/)
     * [Database](https://docs.oracle.com/en-us/iaas/api/#/en/database/20160918/)
-    * [Object Storage](https://docs.oracle.com/en-us/iaas/api/#/en/objectstorage/20160918/
+    * [Object Storage](https://docs.oracle.com/en-us/iaas/api/#/en/objectstorage/20160918/)
 
 
 
@@ -86,7 +86,7 @@ N/Amicronaut/jlib/micronaut-core.jar 3.8.5-2
 
 All commands are run as `zdmuser`. 
 
-1. Download the Zero Downtime Migration software kit from <https://www.oracle.com/database/technologies/rac/zdm-downloads.md> to the Zero Downtime Migration service host.
+1. Download the Zero Downtime Migration software kit from <https://www.oracle.com/database/technologies/rac/zdm-downloads.html> to the Zero Downtime Migration service host.
 
 > **note:** Review for new patches if required, by reviewing the Patch 33509650: ZDM PATCH USING MOS. 
 
